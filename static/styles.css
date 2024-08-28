@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #F08080;
+}
+header {
+    text-align: center;
+    padding: 20px;
+}
+#bio {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+#portfolio {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.image-box {
+    width: 30%;
+    text-align: center;
+}
+.image-box img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style for the section containing the image */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the image */
+img {
+    max-width: 50%;  /* Adjust the size by changing this percentage */
+    height: auto;    /* Keeps the aspect ratio of the image */
+}
+
+.headshot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.headshot {
+    max-width: 50%;  /* Adjust the size by changing this percentage */
+    height: auto;    /* Keeps the aspect ratio of the image */
+}
